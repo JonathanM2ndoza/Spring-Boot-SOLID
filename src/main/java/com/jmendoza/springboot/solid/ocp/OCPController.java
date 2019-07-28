@@ -13,7 +13,7 @@ import javax.servlet.http.HttpServletRequest;
 public class OCPController {
 
     @GetMapping(value = "/")
-    public ResponseEntity srp(HttpServletRequest request) {
+    public ResponseEntity ocp(HttpServletRequest request) {
 
         Printer printer = new ConsolePrinter();
         printer.printValue("===========Open/ Closed Principle (OCP)===========");
