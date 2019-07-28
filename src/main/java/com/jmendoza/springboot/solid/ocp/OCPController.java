@@ -18,13 +18,13 @@ public class OCPController {
         Printer printer = new ConsolePrinter();
         printer.printValue("===========Open/ Closed Principle (OCP)===========");
 
-        AbstractTriangle triangle = new Equilateral(4,4,printer);
+        AbstractTriangle triangle = new Equilateral(4, 4, printer);
         printer.printValue("Triangle Equilateral Area.....");
         triangle.calculateArea();
         printer.printValue("Triangle Equilateral All Sides.....");
         triangle.getAllSides();
 
-        AbstractTriangle scalene = new Scalene(6,4,printer);
+        AbstractTriangle scalene = new Scalene(6, 4, printer);
         printer.printValue("Triangle Scalene Area.....");
         scalene.calculateArea();
         printer.printValue("Triangle Scalene All Sides.....");
