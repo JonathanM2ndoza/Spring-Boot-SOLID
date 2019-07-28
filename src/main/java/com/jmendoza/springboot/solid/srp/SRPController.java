@@ -16,11 +16,14 @@ public class SRPController {
     public ResponseEntity srp(HttpServletRequest request) {
 
         Printer printer = new ConsolePrinter();
+        printer.printValue("===========Single Responsibility Principle (SRP)===========");
 
         Shapes circle = new Circle(34, printer);
+        printer.printValue("Circle Area.....");
         circle.calculateArea();
 
-        Shapes triangle = new Triangle(34, 6, printer);
+        Shapes triangle = new Triangle(6, 6, printer);
+        printer.printValue("Triangle Area.....");
         triangle.calculateArea();
 
         return new ResponseEntity("OK", HttpStatus.OK);

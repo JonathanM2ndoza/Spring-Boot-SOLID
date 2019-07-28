@@ -1,4 +1,4 @@
-package com.jmendoza.springboot.solid.srp;
+package com.jmendoza.springboot.solid.ocp;
 
 public class ConsolePrinter implements Printer {
     @Override
