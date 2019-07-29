@@ -18,11 +18,11 @@ public class SRPController {
         Printer printer = new ConsolePrinter();
         printer.printValue("===========Single Responsibility Principle (SRP)===========");
 
-        Shapes circle = new Circle(34, printer);
+        Circle circle = new Circle(34, printer);
         printer.printValue("Circle Area.....");
         circle.calculateArea();
 
-        Shapes triangle = new Triangle(6, 6, printer);
+        Triangle triangle = new Triangle(6, 6, printer);
         printer.printValue("Triangle Area.....");
         triangle.calculateArea();
 
