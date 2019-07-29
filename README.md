@@ -3,7 +3,7 @@
 # Single Responsibility Principle (SRP)
 The single responsibility principle states that every module or class should have responsibility over a single part of the functionality provided by the software, and that responsibility should be entirely encapsulated by the class. All its services should be narrowly aligned with that responsibility. – Wikipedia
 
-# Open/ Closed Principle (OCP)
+# Open/Closed Principle (OCP)
 The open/closed principle states “software entities (classes, modules, functions, etc.) should be open for extension, but closed for modification”; that is, such an entity can allow its behaviour to be extended without modifying its source code. – Wikipedia
 
 # Liskov Substitution Principle (LSP)
