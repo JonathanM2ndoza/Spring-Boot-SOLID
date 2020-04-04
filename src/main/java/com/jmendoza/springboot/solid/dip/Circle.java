@@ -13,11 +13,11 @@ public class Circle implements CircumferenceShape {
 
     @Override
     public void calculateCircumference() {
-        printer.printValue(String.valueOf(3.14f * 2 * radius));
+        printer.printValue(String.valueOf(Math.PI * 2 * radius));
     }
 
     @Override
     public void calculateArea() {
-        printer.printValue(String.valueOf(3.14f * radius * radius));
+        printer.printValue(String.valueOf(Math.PI * radius * radius));
     }
 }

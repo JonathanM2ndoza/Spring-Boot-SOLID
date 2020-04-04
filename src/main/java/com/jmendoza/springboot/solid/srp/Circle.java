@@ -12,6 +12,6 @@ public class Circle implements Shapes {
 
     @Override
     public void calculateArea() {
-        printer.printValue(String.valueOf(3.14f * radius * radius));
+        printer.printValue(String.valueOf(Math.PI * radius * radius));
     }
 }
